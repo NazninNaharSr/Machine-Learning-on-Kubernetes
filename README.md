@@ -60,7 +60,19 @@ Enter the following contents in Dockerfile:
 9. Preview the application:
 
 - In the upper-right side of the terminal, click the eye-shaped button and then click "Preview on port 5000".
-- Add /apidocs/ at the end of the link to access the running ml-app.
+
+
+  ![Screenshot 2024-07-21 200204](https://github.com/user-attachments/assets/0bb0bba2-73f8-45e5-a2dd-09debc4eb17d)
+
+- Add **/apidocs/** at the end of the link to access the running ml-app.
+
+![Screenshot 2024-07-21 203724](https://github.com/user-attachments/assets/69aa8f2f-4b7d-451b-a746-6e859e4c9dbb)
+
+
+10. Make predictions for a group of customers (test data) via a POST request:
+
+- Upload the test data file containing the same parameters in a similar order.
+- Execute to display the results.
 
 
 
