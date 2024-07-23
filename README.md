@@ -109,12 +109,35 @@ Enter the following contents in Dockerfile:
 Use the GKE we have created in Step 1
 
 1. Create a deployment.yaml with the following contents.
-2. Create deployment with the above file.
-3. Wait for couple minutes and list all the pods created
-4. Create a service.yaml
-5. Create service with the above file
-6. Get service external ip
-7. Access using browser:
+
+         nano deployment.yaml
+   
+   then write this content 
+   
+3. Create deployment with the above file.
+
+         kubectl apply -f ml-app-deployment.yaml
+
+4. Wait for couple minutes and list all the pods created
+
+         kubectl get deployments
+         kubectl get pods
+
+5. Create a service.yaml
+
+         nano service.yaml
+   
+then write this content 
+   
+6. Create service with the above file
+
+         kubectl apply -f ml-app-service.yaml
+
+7. Get service external ip
+
+         kubectl get services
+
+8. Access using browser:
    
          external-ip/apidocs
 
