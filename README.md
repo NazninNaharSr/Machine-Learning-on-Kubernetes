@@ -78,7 +78,7 @@ Enter the following contents in Dockerfile:
 
 - List running Docker containers using the command:
 
-      docker ps
+         docker ps
 
 - Use the command to kill the running container
 
@@ -90,15 +90,16 @@ Enter the following contents in Dockerfile:
 1. Log in to Docker Hub:
 
           docker login
-2. Tag the Image:
+   
+3. Tag the Image:
 
          docker tag ml_app_docker nazninnahar054/ml_docker:latest
 
-3. Push the Image:
+4. Push the Image:
 
          docker push nazninnahar054/ml_docker:latest
 
-4. Verify the image exists locally by listing your Docker images:
+5. Verify the image exists locally by listing your Docker images:
 
          docker images
 
