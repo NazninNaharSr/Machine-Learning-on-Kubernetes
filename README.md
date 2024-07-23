@@ -87,7 +87,47 @@ Enter the following contents in Dockerfile:
 
 # Step 2: Push the image to your docker hub
 
-. Log in to Docker Hub:
+1. Log in to Docker Hub:
+
+          docker login
+2. Tag the Image:
+
+         docker tag ml_app_docker nazninnahar054/ml_docker:latest
+
+3. Push the Image:
+
+         docker push nazninnahar054/ml_docker:latest
+
+4. Verify the image exists locally by listing your Docker images:
+
+         docker images
+
+**P.S. Before login to docker build the image if pushing isn't working**
+
+# Step 3: Deploy your ML app to GKE
+
+Use the GKE we have created in Step 1
+
+1. Create a deployment.yaml with the following contents.
+2. Create deployment with the above file.
+3. Wait for couple minutes and list all the pods created
+4. Create a service.yaml
+5. Create service with the above file
+6. Get service external ip
+7. Access using browser:
+   
+         external-ip/apidocs
+
+
+
+
+
+
+
+
+
+
+
 
 
 
