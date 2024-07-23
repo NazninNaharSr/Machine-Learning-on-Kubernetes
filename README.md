@@ -102,6 +102,8 @@ Enter the following contents in Dockerfile:
 
          docker images
 
+![Screenshot 2024-07-21 202328](https://github.com/user-attachments/assets/06783a5c-6f45-4d24-994e-4884b0c5a5f8)
+
 **P.S. Before login to docker build the image if pushing isn't working**
 
    ## Step 3: Deploy your ML app to GKE
