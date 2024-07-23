@@ -74,7 +74,7 @@ Enter the following contents in Dockerfile:
 - Upload the test data file containing the same parameters in a similar order.
 - Execute to display the results.
 
-   # **Step 1.1. Stop/kill the running container:**
+   ### **Step 1.1. Stop/kill the running container:**
 
 - List running Docker containers using the command:
 
@@ -85,7 +85,7 @@ Enter the following contents in Dockerfile:
         docker kill <CONTAINER ID>
 
 
-   # Step 2: Push the image to your docker hub
+   ## Step 2: Push the image to your docker hub
 
 1. Log in to Docker Hub:
 
@@ -104,7 +104,7 @@ Enter the following contents in Dockerfile:
 
 **P.S. Before login to docker build the image if pushing isn't working**
 
-   # Step 3: Deploy your ML app to GKE
+   ## Step 3: Deploy your ML app to GKE
 
 Use the GKE we have created in Step 1
 
