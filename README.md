@@ -7,10 +7,10 @@
     
 4. Create a Kubernetes cluster with three nodes using the following command:
    
-   gcloud container clusters create kubia \
+           gcloud container clusters create kubia \
     --num-nodes=3 \
     --machine-type=n1-standard-1 \
-    --region=us-west1-b
+    --region=us-west1-b        
 5. Check if nodes are correctly created:
    
    kubectl get nodes
