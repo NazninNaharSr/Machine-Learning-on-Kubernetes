@@ -74,6 +74,23 @@ Enter the following contents in Dockerfile:
 - Upload the test data file containing the same parameters in a similar order.
 - Execute to display the results.
 
+# **Step 1.1. Stop/kill the running container:**
+
+- List running Docker containers using the command:
+
+      docker ps
+
+- Use the command to kill the running container
+
+        docker kill <CONTAINER ID>
+
+
+# Step 2: Push the image to your docker hub
+
+. Log in to Docker Hub:
+
+
+
 
 
 
