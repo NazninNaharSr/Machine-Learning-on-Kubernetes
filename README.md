@@ -3,9 +3,8 @@
 1. Open GKE terminal.
 2. List all clusters:
 
-'''sh
-    gcloud container clusters list
-'''
+        gcloud container clusters list
+    
 4. Create a Kubernetes cluster with three nodes using the following command:
    
    gcloud container clusters create kubia \
