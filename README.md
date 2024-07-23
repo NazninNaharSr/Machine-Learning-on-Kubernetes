@@ -112,7 +112,7 @@ Use the GKE we have created in Step 1
 
          nano deployment.yaml
    
-   then write this content 
+   then write [this](https://github.com/NazninNaharSr/Machine-Learning-on-Kubernetes/blob/main/service.yaml) content 
    
 3. Create deployment with the above file.
 
