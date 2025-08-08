@@ -3,7 +3,7 @@
 1. Open GKE terminal.
 2. Start minikube in Google Cloud Platform
    
-           minikube start
+         minikube start
    
 3. Create requirements.txt file using the following command:
 
